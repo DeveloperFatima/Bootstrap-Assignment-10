@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+body{
+    overflow-x: hidden;
+}
+#navbars{
+    background-image: url(img/header-bg.jpg.webp);
+    height: 110vh;
+    width: 1430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h6::selection{
+    color: white;
+    background-color: #b68834;
+}
+.nav-item::selection{
+    color: #fff;
+    background-color: #b68834;
+}
+.menu-area{
+    background-image: url(img/menu-bg.jpg.webp);
+    position: relative;
+    top: -120px;
+    height: 120vh;
+}
+.rounded-pill:hover{
+    background-color: #b68834 !important;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: #b68834 !important;
+    cursor: pointer;
+    transition: 0.4s;
+}
